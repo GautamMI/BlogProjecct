@@ -1,0 +1,9 @@
+module.exports={
+    addComment:'http://localhost:3001/service/addComment',
+    updateComment:'http://localhost:3001/service/updateComment',
+    deletComment:'http://localhost:3001/service/deleteComment',
+    getComment:'http://localhost:3001/service/getComments',
+    getUsers:'http://localhost:3001/service/getLoginUsers',
+    addUsers:'http://localhost:3001/service/addUsers',
+    db:'mongodb://localhost:27017/Service'
+}

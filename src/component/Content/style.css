@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.card-container{
+    width: 500px;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 15px -15px;
+    
+}
+
+.card-container:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-conatiner img{
+    height: 200px;
+    width: 500px;
+    
+}
+
+
+.card-title{
+    margin-bottom: 0.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    size: 13px;
+}
+
+
+.toggle-container:hover{
+    color: sienna;
+    pointer-events: all;
+}
